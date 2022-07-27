@@ -1,4 +1,4 @@
-package codewars.at.SimplePigLatin;
+package codewars.at.simplePigLatin;
 
 import org.junit.jupiter.api.Test;
 

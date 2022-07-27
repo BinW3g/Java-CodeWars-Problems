@@ -1,4 +1,4 @@
-package codewars.at.Permutations;
+package codewars.at.permutations;
 
 import org.junit.jupiter.api.Test;
 
