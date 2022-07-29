@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-//Link to codewars problem:
+//Link to codewars challenge :
 //https://www.codewars.com/kata/520b9d2ad5c005041100000f
 public class PigLatin {
     public static String pigIt(String str) {

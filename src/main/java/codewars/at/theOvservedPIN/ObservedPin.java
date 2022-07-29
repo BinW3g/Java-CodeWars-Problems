@@ -2,7 +2,7 @@ package codewars.at.theOvservedPIN;
 
 import java.util.*;
 
-//codewars puzzle link:
+//codewars challenge link:
 //https://www.codewars.com/kata/5263c6999e0f40dee200059d
 public class ObservedPin {
     //used to find the adjacent numbers from the observed number

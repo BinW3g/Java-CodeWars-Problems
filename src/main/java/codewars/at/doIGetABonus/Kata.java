@@ -1,6 +1,6 @@
 package codewars.at.doIGetABonus;
 
-//Link to codwars puzzle
+//Link to codwars challenge
 //https://www.codewars.com/kata/56f6ad906b88de513f000d96
 
 public class Kata {
