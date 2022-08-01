@@ -1,5 +1,6 @@
-package codewars.at.simplePigLatin;
+package codewars.at.kyu5.simplePigLatin;
 
+import codewars.at.kyu5.simplePigLatin.PigLatin;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

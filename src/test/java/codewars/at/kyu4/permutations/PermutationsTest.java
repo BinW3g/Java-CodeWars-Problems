@@ -1,5 +1,6 @@
-package codewars.at.permutations;
+package codewars.at.kyu4.permutations;
 
+import codewars.at.kyu4.permutations.Permutations;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

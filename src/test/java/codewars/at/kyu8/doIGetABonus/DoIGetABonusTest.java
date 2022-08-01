@@ -1,5 +1,6 @@
-package codewars.at.doIGetABonus;
+package codewars.at.kyu8.doIGetABonus;
 
+import codewars.at.kyu8.doIGetABonus.Kata;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -8,7 +9,7 @@ class DoIGetABonusTest {
     @Test
     public void basicTests() {
         boolean wellConfigured=unicodeTest();
-        assertEquals((wellConfigured?"£":"\u00A3")+"100000",Kata.bonusTime(10000, true));
+        assertEquals((wellConfigured?"£":"\u00A3")+"100000", Kata.bonusTime(10000, true));
         assertEquals((wellConfigured?"£":"\u00A3")+"250000",Kata.bonusTime(25000, true));
         assertEquals((wellConfigured?"£":"\u00A3")+"10000",Kata.bonusTime(10000, false));
         assertEquals((wellConfigured?"£":"\u00A3")+"60000",Kata.bonusTime(60000, false));

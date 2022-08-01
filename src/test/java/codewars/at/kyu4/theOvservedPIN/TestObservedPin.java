@@ -1,9 +1,11 @@
-package codewars.at.theOvservedPIN;
+package codewars.at.kyu4.theOvservedPIN;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
+
+import codewars.at.kyu4.theOvservedPIN.ObservedPin;
 import org.junit.Assert;
 import org.junit.Test;
 

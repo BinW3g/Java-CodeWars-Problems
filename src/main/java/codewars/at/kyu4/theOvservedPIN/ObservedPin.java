@@ -1,4 +1,4 @@
-package codewars.at.theOvservedPIN;
+package codewars.at.kyu4.theOvservedPIN;
 
 import java.util.*;
 

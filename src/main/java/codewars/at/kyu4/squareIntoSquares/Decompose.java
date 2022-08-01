@@ -1,4 +1,4 @@
-package codewars.at.squareIntoSqares;
+package codewars.at.kyu4.squareIntoSquares;
 
 //codewars challenge link:
 //https://www.codewars.com/kata/5263c6999e0f40dee200059d

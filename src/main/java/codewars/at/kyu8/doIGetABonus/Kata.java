@@ -1,4 +1,4 @@
-package codewars.at.doIGetABonus;
+package codewars.at.kyu8.doIGetABonus;
 
 //Link to codwars challenge
 //https://www.codewars.com/kata/56f6ad906b88de513f000d96

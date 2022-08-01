@@ -1,4 +1,4 @@
-package codewars.at.simplePigLatin;
+package codewars.at.kyu5.simplePigLatin;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,6 +1,8 @@
-package codewars.at.squareIntoSqares;
+package codewars.at.kyu4.squareIntoSquares;
 
 import static org.junit.Assert.*;
+
+import codewars.at.kyu4.squareIntoSquares.Decompose;
 import org.junit.Test;
 
 

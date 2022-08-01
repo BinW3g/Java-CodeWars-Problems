@@ -1,4 +1,4 @@
-package codewars.at.permutations;
+package codewars.at.kyu4.permutations;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,6 +29,7 @@ public class Permutations {
 
 
     //better solution bc no junk gets produced
+    //https://www.baeldung.com/java-array-permutations
     public static <T> void printAllRecursive(int n, T[] elements) {
         if(n == 1) {
             printArray(elements);
