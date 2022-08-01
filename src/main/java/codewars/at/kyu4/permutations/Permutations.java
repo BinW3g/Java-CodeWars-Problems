@@ -12,8 +12,6 @@ public class Permutations {
         List<String> possibilities = new ArrayList<>();
         permutationRecursion(possibilities, s, "");
         possibilities = possibilities.stream().distinct().collect(Collectors.toList());
-
-//        printAllRecursive(s.length(), s.split(""));
         return possibilities;
     }
 
@@ -30,32 +28,39 @@ public class Permutations {
 
     //better solution bc no junk gets produced
     //https://www.baeldung.com/java-array-permutations
-    public static <T> void printAllRecursive(int n, T[] elements) {
-        if(n == 1) {
-            printArray(elements);
-        } else {
-            for(int i = 0; i < n-1; i++) {
-                printAllRecursive(n - 1, elements);
-                if(n % 2 == 0) {
-                    swap(elements, i, n-1);
-                } else {
-                    swap(elements, 0, n-1);
-                }
+    /* Permutation function @param str
+       string to calculate permutation
+       for @param l starting index
+       @param r end index */
+    private void permute(String str,
+                         int l, int r)
+    {
+        if (l == r)
+            System.out.println(str);
+        else
+        {
+            for (int i = l; i <= r; i++)
+            {
+                str = swap(str,l,i);
+                permute(str, l+1, r);
+                str = swap(str,l,i);
             }
-            printAllRecursive(n - 1, elements);
         }
-    }
-    private static <T> void swap(T[] input, int a, int b) {
-        T tmp = input[a];
-        input[a] = input[b];
-        input[b] = tmp;
     }
 
-    private static <T> void printArray(T[] input) {
-        System.out.print('\n');
-        for(int i = 0; i < input.length; i++) {
-            System.out.print(input[i]);
-        }
+    /* Swap Characters at position
+       @param a string value @param
+       i position 1 @param j position 2
+       @return swapped string */
+    public String swap(String a,
+                       int i, int j)
+    {
+        char temp;
+        char[] charArray = a.toCharArray();
+        temp = charArray[i] ;
+        charArray[i] = charArray[j];
+        charArray[j] = temp;
+        return String.valueOf(charArray);
     }
 
 }
